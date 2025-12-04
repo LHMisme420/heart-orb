@@ -1,0 +1,25 @@
+heart-orb/
+├── UEFN_Project/
+│   ├── Content/
+│   │   ├── Maps/
+│   │   │   └── HeartOrb_Main.umap                  # Main map (empty snow forest)
+│   │   ├── Materials/
+│   │   │   ├── MI_Orb_Base.uasset
+│   │   │   ├── MI_Orb_Warm.uasset
+│   │   │   └── MI_ParticleTrail.uasset
+│   │   ├── Blueprints/
+│   │   │   └── BP_HeartOrb_Player.uasset
+│   │   ├── Particles/
+│   │   │   ├── P_HeartMerge.uasset
+│   │   │   └── P_GlowTrail.uasset
+│   │   └── Sounds/
+│   │       └── S_Heartbeat_Sync.uasset
+├── Verse/
+│   ├── heart_orb_device.v
+│   ├── heartbeat_manager.v
+│   └── proximity_merge_logic.v
+├── Config/
+│   └── DefaultGame.ini
+├── README.md
+├── LICENSE (MIT)
+└── .gitignore
